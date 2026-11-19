@@ -1,0 +1,11 @@
+/runs/
+/data/
+/.migration_archive/
+__pycache__/
+*.py[cod]
+*.pt
+*.safetensors
+*.bak
+.env
+.env.*
+.venv/

@@ -1,0 +1,9 @@
+torch==2.14.1
+transformers==4.51.3
+peft==0.15.2
+accelerate==1.6.0
+tokenizers==0.21.4
+numpy==2.5.4
+huggingface-hub==0.36.2
+safetensors==0.8.0
+mambapy @ git+https://github.com/alxndrTL/mamba.py.git@5c4136c2c28bc10d5d6655aa81b7a60051b50f00
