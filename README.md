@@ -1,4 +1,4 @@
-﻿# Nexus AI
+# Nexus AI
 
 **Financial AI research connecting quantitative evidence, business value and macroeconomic risk.**
 
@@ -87,5 +87,11 @@ Resuming requires the local model cache, DART data and parent adapters. Weights,
 Upstream code, model weights and datasets remain subject to their respective licenses.
 
 ---
+
+## Financial verbalization V3
+
+V3 passed 15/16 previously inspected SEC regression cases and 10/12 cases on three new SEC companies, versus 10/16 and 5/12 for V1. These results measure bounded fact verbalization, not general financial reasoning.
+
+See [results and limitations](docs/FINANCE_V3.md).
 
 A research project by [Algotradingresearch.com](https://algotradingresearch.com).
