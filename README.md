@@ -94,4 +94,10 @@ V3 passed 15/16 previously inspected SEC regression cases and 10/12 cases on thr
 
 See [results and limitations](docs/FINANCE_V3.md).
 
+## Annual comparisons
+
+Local SEC facts support deterministic annual changes and margin calculations. Experimental V5 metric verbalization matched 35/35 previously inspected SEC sentences and 69/80 reserved synthetic sentences. V5 did not meet its development selection threshold and is not deployed; V3 remains the application adapter.
+
+See [comparison experiments and limitations](docs/COMPARISON_EXPERIMENTS.md).
+
 A research project by [Algotradingresearch.com](https://algotradingresearch.com).
