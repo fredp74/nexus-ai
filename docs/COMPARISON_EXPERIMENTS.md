@@ -87,13 +87,13 @@ decrease stated for a zero change.
 The original scores and selection thresholds remain unchanged.
 Diagnostic test results do not retroactively promote either adapter.
 
-## Next integration step
+## Experimental integration
 
 Keep V3 for financial summaries.
 Consider V5 only as an experimental metric-verbalization adapter,
 with exact per-sentence checks and a deterministic fallback.
 
-This experimental integration has not yet been implemented.
+The opt-in experimental integration is implemented in nexus_metric_comment.py and the report exporters. V5 selection status is unchanged.
 No new training or model promotion is performed by this publication.
 
 ## Local artifacts

@@ -96,8 +96,16 @@ See [results and limitations](docs/FINANCE_V3.md).
 
 ## Annual comparisons
 
-Local SEC facts support deterministic annual changes and margin calculations. Experimental V5 metric verbalization matched 35/35 previously inspected SEC sentences and 69/80 reserved synthetic sentences. V5 did not meet its development selection threshold and is not deployed; V3 remains the application adapter.
+Local SEC facts support deterministic annual changes and margin calculations. Experimental V5 metric verbalization matched 35/35 previously inspected SEC sentences and 69/80 reserved synthetic sentences. V5 did not meet its development selection threshold and remains opt-in and experimental; V3 remains the financial-summary adapter.
 
 See [comparison experiments and limitations](docs/COMPARISON_EXPERIMENTS.md).
+
+## Financial report exports
+
+Nexus exports Markdown and JSON reports combining verified local SEC facts, annual changes, margins, balance-sheet and cash-flow data. V3 summaries and opt-in experimental V5 metric sentences have controlled checks and deterministic fallbacks.
+
+Missing facts remain unavailable. The free-cash-flow proxy is explicitly defined; total debt and valuation are not calculated.
+
+See [report usage and scope](docs/FINANCIAL_REPORTS.md).
 
 A research project by [Algotradingresearch.com](https://algotradingresearch.com).
